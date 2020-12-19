@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ice cream bites</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="ice-cream">
+        <div class="bite1"></div>
+        <div class="bite2"></div>
+        <div class="bite3"></div>
+      <div class="stick"></div>
+
+      <style>
+ body {
+  background: #25141a;
+}
+
+.container {
+  top: 250px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.ice-cream {
+  width: 350px;
+  height: 500px;
+  background-image: linear-gradient(
+    to bottom,
+    #ff0085,
+    #ff4062,
+    #ff7140,
+    #ff9f1d,
+    #ffc800,
+    #f4da00,
+    #e5ec00,
+    #d0fe00,
+    #b3fd00,
+    #91fc00,
+    #66fa00,
+    #00f816
+  );
+  border-top-left-radius: 150px;
+  border-top-right-radius: 150px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  transform: scale(0.8);
+}
+
+.bite1 {
+  width: 120px;
+  height: 80px;
+  top: -25px;
+  left: 20px;
+  position: absolute;
+  background: #25141a;
+  border-radius: 80px;
+  transform: rotate(-30deg);
+}
+
+.bite2 {
+  width: 140px;
+  height: 100px;
+  top: -20px;
+  left: 230px;
+  position: absolute;
+  background: #25141a;
+  border-radius: 95%;
+  transform: rotate(-145deg);
+}
+
+.bite3 {
+  width: 80px;
+  height: 60px;
+  top: 85px;
+  left: 300px;
+  position: absolute;
+  background: #25141a;
+  border-radius: 95%;
+  transform: rotate(-110deg);
+}
+
+.stick {
+  width: 60px;
+  height: 160px;
+  top: 500px;
+  left: 140px;
+  position: absolute;
+  background-color: #d68a58;
+  border-top: 30px solid #c27948;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+      </style>
+  </body>
+</html>
